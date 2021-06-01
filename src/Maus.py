@@ -13,5 +13,6 @@ button.switch_to_input(pull=digitalio.Pull.DOWN)
 
 while True:
     if button.value:
-# 3. Parameter ist Scrollrad   m.move(-10, -10, 0)
+    # 3. Parameter ist Scrollrad   
+    m.move(-10, -10, 0)
 time.sleep(0.2) 
